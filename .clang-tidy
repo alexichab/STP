@@ -25,10 +25,10 @@ Checks: >
   -google-build-using-namespace,
   -*-avoid-do-while
 WarningsAsErrors: '*'
-#HeaderFilterRegex: '(libsum|libpars|sum|parser)/'
+HeaderFilterRegex: '(libcsc)/'
 AnalyzeTemporaryDtors: false
 FormatStyle:     none
-User:            mihailvlasyk
+User:            alexeynaumov
 CheckOptions:    
   - key:             abseil-string-find-startswith.AbseilStringsMatchHeader
     value:           absl/strings/match.h
