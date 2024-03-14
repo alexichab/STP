@@ -25,7 +25,7 @@ Checks: >
   -google-build-using-namespace,
   -*-avoid-do-while
 WarningsAsErrors: '*'
-#HeaderFilterRegex: '(libcsc)/'
+HeaderFilterRegex: '(time)/'
 AnalyzeTemporaryDtors: false
 FormatStyle:     none
 User:            alexeynaumov
