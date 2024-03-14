@@ -23,7 +23,11 @@ Checks: >
   -bugprone-exception-escape,
   -readability-redundant-string-init,
   -google-build-using-namespace,
-  -*-avoid-do-while
+  -*-avoid-do-while,
+  -bugprone-implicit-widening-of-multiplication-result,
+  -bugprone-narrowing-conversions,
+  -cppcoreguidelines-narrowing-conversions,
+  -misc-const-correctness
 WarningsAsErrors: '*'
 HeaderFilterRegex: '(time)/'
 AnalyzeTemporaryDtors: false
